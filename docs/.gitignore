@@ -1,0 +1,5 @@
+/.quarto/
+_site/
+/api/*.qmd
+/api/*.html
+config-reference.qmd

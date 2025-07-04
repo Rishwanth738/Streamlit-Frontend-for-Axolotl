@@ -1,30 +1,30 @@
-# 🦙 Axolotl Fine-Tuning UI
+# Axolotl Fine-Tuning UI
 
 A Streamlit-based frontend that lets you fine-tune LLMs with Axolotl, visualize training logs, run inference, and validate model output — all from a sleek and user-friendly interface. No CLI gymnastics needed.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🛠️ 1. Fine-Tuning Control
+###  1. Fine-Tuning Control
 - Select and edit your YAML config files directly from the UI
 - Launch fine-tuning jobs inside a Docker container with a single click
 - Real-time terminal log streaming from the container
 
-### 🧠 2. Inference Engine
+###  2. Inference Engine
 - Load your fine-tuned models from the `outputs/` directory
 - Input prompt directly in the UI
 - Control generation parameters: `max_tokens`, `temperature`, `top_p`
 - See complete generated output instantly
 
-### ✅ 3. Output Validation
+###  3. Output Validation
 - Compare model output against expected output using an OpenAI-powered semantic scoring method
 - Displays a qualitative similarity judgment between both scripts
 - Helps identify hallucinations, structural mismatches, or logical gaps
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io)
 - **Backend/Training**: [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)
@@ -34,7 +34,7 @@ A Streamlit-based frontend that lets you fine-tune LLMs with Axolotl, visualize 
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 Axolotl-Finetuning-UI/
 │
@@ -44,13 +44,10 @@ Axolotl-Finetuning-UI/
 ├── frontend.py # Streamlit UI script (main entrypoint)
 ├── README.md # You're here!
 
-yaml
-Copy
-Edit
 
 ---
 
-## 🧑‍💻 Getting Started
+##  Getting Started
 
 ### 1. Clone this repo
 ```bash
@@ -72,7 +69,7 @@ F:/Axolotl/outputs → /workspace/outputs
 
 Update these in frontend.py if your paths differ.
 
-📜 License
+ License
 This project is licensed under the Apache 2.0 License.
 
 This tool uses:
@@ -81,7 +78,7 @@ Axolotl (Apache 2.0)
 
 OpenAI API for output validation (requires your own API key)
 
-🧠 Notes
+ Notes
 This tool does not include model weights or proprietary datasets.
 
 You are responsible for ensuring your fine-tuned models comply with their respective licenses (especially for LLaMA-family models).

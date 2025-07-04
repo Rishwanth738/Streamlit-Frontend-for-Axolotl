@@ -70,23 +70,32 @@ F:/Axolotl/outputs → /workspace/outputs
 Update these in frontend.py if your paths differ.
 ```
 
- License
-This project is licensed under the Apache 2.0 License.
+##  License
+
+This project is licensed under the **Apache 2.0 License**.
 
 This tool uses:
 
-Axolotl (Apache 2.0)
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) (Apache 2.0)
+- [OpenAI API](https://platform.openai.com/docs/api-reference) for output validation (requires your own API key)
 
-OpenAI API for output validation (requires your own API key)
+---
 
- Notes
-This tool does not include model weights or proprietary datasets.
+##  Notes
 
-You are responsible for ensuring your fine-tuned models comply with their respective licenses (especially for LLaMA-family models).
+- This tool **does not include model weights or proprietary datasets**.
+- You are responsible for ensuring your fine-tuned models comply with their respective licenses  
+  _(especially for LLaMA-family models)_.
+- Make sure your **OpenAI API key is securely managed** if validation is enabled.
 
-Make sure your OpenAI API key is securely managed if validation is enabled.
+---
 
-🧃 Wanna Contribute?
-If you're into LLMs, tools, or just cool UI/UX for model training — PRs are welcome. Let’s build the LLM dev tooling scene together.
+## Wanna Contribute?
 
-Made with ❤️ by Rishwanth
+If you're into LLMs, tools, or just cool UI/UX for model training — **PRs are welcome**.  
+Let’s build the LLM dev tooling scene together 🚀
+
+---
+
+Made with ❤️ by **[Rishwanth](https://github.com/Rishwanth738)**
+

@@ -87,13 +87,7 @@ This tool uses:
 - You are responsible for ensuring your fine-tuned models comply with their respective licenses  
   _(especially for LLaMA-family models)_.
 - Make sure your **OpenAI API key is securely managed** if validation is enabled.
-
----
-
-## Wanna Contribute?
-
-If you're into LLMs, tools, or just cool UI/UX for model training — **PRs are welcome**.  
-Let’s build the LLM dev tooling scene together 🚀
+- Give proper credits to Axolotl and read their license before using this since this creates a frontend which is used to work with their resources. 
 
 ---
 

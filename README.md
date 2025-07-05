@@ -49,26 +49,25 @@ Axolotl-Finetuning-UI/
 
 ##  Getting Started
 
-### 1. Clone this repo
+1. Clone this repo
 ```bash
 git clone https://github.com/your-username/axolotl-finetuning-ui.git
 cd axolotl-finetuning-ui
+```
 2. Start the Streamlit UI
-bash
-Copy
-Edit
+```bash
 streamlit run frontend.py
+```
 3. Docker Requirement
 Make sure Docker is installed and running. The app automatically creates a container named axo-ui and mounts volumes from:
-
+```
 F:/Axolotl → /workspace/axolotl
 
 F:/Axolotl/data → /workspace/data
 
 F:/Axolotl/outputs → /workspace/outputs
-
-Update these in frontend.py if your paths differ.
 ```
+Update these in frontend.py if your paths differ.
 
 ##  License
 

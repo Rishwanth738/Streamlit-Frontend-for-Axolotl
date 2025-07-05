@@ -82,6 +82,7 @@ This tool uses:
 
 ##  Notes
 
+- Donwload docker and NVIDIA WSL driver for GPU access for fine tuning.
 - This tool **does not include model weights or proprietary datasets**.
 - You are responsible for ensuring your fine-tuned models comply with their respective licenses  
   _(especially for LLaMA-family models)_.
